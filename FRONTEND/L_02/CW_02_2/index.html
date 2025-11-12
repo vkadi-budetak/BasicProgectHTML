@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Application for position</h2>
+    <form action="">
+        <label for="email_input">Email:</label>
+        <input type="email" id="email_input" name="email" placeholder="john.dswson@gmail.com" required>
+
+
+        <label for="position">Position:</label>
+        <select name="position" id="position" required>
+            <!-- required - обовязкове поле для введення -->
+            <option value="" disabled selected>Select position</option>
+            <!-- disabled - Робить цю конкретну опцію недоступною для вибору користувачем. -->
+            <!-- selected - Встановлює цю опцію вибраною за замовчуванням, коли сторінка завантажується. -->
+            <option value="qa">QA Engineer</option>
+            <option value="fd">Frontend Developer</option>
+            <option value="bd">Backend Developer</option>
+            <option value="fsd">Fullstack Developer</option>
+        </select>
+
+        <br />
+        <!-- checkbox -->
+        <p>What do you want to learn?</p>
+        <input type="checkbox" value="true" id="docker_checkbox" name="docker">
+        <!-- name - відповідає за інформацію яку відправляємо. -->
+        <label for="docker_checkbox">Docker</label>
+
+        <br />
+        <input type="checkbox" value="true" id="postgresql_checkbox" name="postgresql">
+        <label for="postgresql_checkbox">PostgreSQL</label>
+
+        <!-- radio check -->
+        <br />
+        <p>Work format:</p>
+        <input type="radio" id="office" name="work_format" value="office">
+        <label for="office">Office</label>
+
+        <input type="radio" id="home" name="work_format" value="home">
+        <label for="home">Home</label>
+
+        <input type="radio" id="hybrid" name="work_format" value="hybrid">
+        <label for="hybrid">Hybrid</label>
+
+        <!-- date and time -->
+        <br>
+        <p>When would do you like to begin?</p>
+        <input type="date" name="start_date" id="start_date" placeholder="date">
+        <input type="time" id="interview_time" name="start_time" placeholder="time">
+
+
+        <button type="submit">Apply</button>
+    </form>
+</body>
+
+</html>
