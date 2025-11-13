@@ -30,7 +30,17 @@
     <!-- Form section -->
     <section id="form">
         <h3>Ваша любовь уже за дверью 💘</h3>
-        <form action="save_data.asp" method="POST">
+        <form action="" method="post">
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" value="nonbinare" id="nonbinare">
+            <label for="nonbinare">NonBinare</label>
+
+            <br>
             <label for="name">Имя</label>
             <input type="text" id="name" name="name" placeholder="Имя" required />
             <br />
@@ -63,6 +73,7 @@
                 <label for="my_self">Напиши что-то о себе:</label>
                 <textarea id="my_self" name="my_self" rows="4" cols="50" placeholder="Расскажи о себе..."></textarea>
             </div>
+
 
             <br>
             <button type="submit" action>Найти любовь 💘</button>

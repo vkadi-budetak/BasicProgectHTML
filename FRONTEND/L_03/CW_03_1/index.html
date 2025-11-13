@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <style>
+        /* selector - по тегу */
+        h2 {
+            background-color: teal;
+            text-align: left;
+        }
+
+        /* selector - по классу */
+        .red {
+            color: brown;
+            font-weight: bold;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        p {
+            color: gray;
+        }
+
+        /* selector - по id */
+        #special {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1. inline - подключить к конкретному элементу -->
+    <h1 style="border-color: tomato; text-align: center;">Hello, CSS!</h1>
+    <h2>Style me by tagname</h2>
+
+
+    <p class="red">I was styled by class</p>
+    <p class="bold red">I was styled by different class</p>
+    <p class="special">Styled by id, dont do it</p>
+
+
+    <h2>And me</h2>
+</body>
+
+</html>
+
+<!-- иерархия: inline -> id -> class -> tag -->
