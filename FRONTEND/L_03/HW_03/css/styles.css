@@ -1,0 +1,57 @@
+body {
+    padding-left: 50px;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+.link {
+    color: currentColor;
+    text-decoration: none
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {}
+
+.header_title {
+    text-align: center;
+    letter-spacing: 25px;
+    text-shadow: 9px -9px 6px #000000;
+}
+
+.header_list {}
+
+.header_item {
+    color: tomato;
+
+}
+
+.header_desc {}
+
+.header_img {}
+
+.header_text {
+    color: green;
+    text-align: center;
+}
+
+.header_link {
+    width: 10px;
+}
+
+.header_address {}
+
+.header_address_link {}
+
+.header_social_iteam:hover,
+.header_social_iteam:focus {
+    width: 21px;
+    color: green;
+}
