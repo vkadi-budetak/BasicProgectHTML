@@ -1,0 +1,47 @@
+.red {
+    background-color: red;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+
+    /* внешний отступ до соседнего элемента */
+    margin: 24px;
+    padding: 24px;
+    border: solid 2px black;
+}
+
+.special {
+    margin: 50px;
+    /* colapsing - марджены схлопываються, выбирается наибольший */
+}
+
+.ugly {
+    padding: 50px 40px 30px 20px;
+}
+
+.inner-box {
+    background-color: green;
+    width: 40px;
+    height: 30px;
+    margin: auto;
+}
+
+.golden-box {
+    background-color: gold;
+    /* свойство изменит  */
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+    border: solid 4px black;
+    margin: 50px;
+}
+
+
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
