@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/**
+  |============================
+  | styles body
+  |============================
+*/
+
+.auto_list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.auto_list_box {
+    width: 400px;
+    height: 500px;
+
+    padding: 20px;
+    border: solid 2px tomato;
+
+    text-align: center;
+    align-content: center;
+}
+
+.auto_list_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_yellow {
+    border: dashed 2px yellow;
+}
+
+.box_green {
+    border: solid 2px green;
+}
+
+.auto_img {
+    width: 75%;
+    height: 300px;
+
+}
+
+.auto_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
