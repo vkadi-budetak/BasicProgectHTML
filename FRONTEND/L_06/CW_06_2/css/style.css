@@ -1,0 +1,45 @@
+.container {
+    height: 1000px;
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.small {
+    height: 250px;
+}
+
+.emerald-collection {
+    height: 565px;
+    box-sizing: border-box;
+    background-image: url("https://assets.timberland.eu/image/upload/c_limit,w_1920/q_auto:best,f_auto:image,d_na.png/v1762266419/s25-05-emerald-woods-hp-secondary-banner-desktop");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 32px 24px;
+}
+
+.emerald-collection button {
+    width: 140px;
+    border: none;
+    padding: 12px 26px;
+
+    &:hover {
+        background-color: beige;
+    }
+}

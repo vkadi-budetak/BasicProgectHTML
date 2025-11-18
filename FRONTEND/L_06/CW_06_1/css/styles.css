@@ -1,0 +1,54 @@
+.container {
+    background-color: pink;
+    padding: 24px;
+    display: flex;
+    /* justify-content: отвечает за выравнивание  по основной оси */
+    /* center - по центру
+    flex-start - в начале
+    flex-end - в конец
+    spaces-beeteen - свободное пространство между карточками
+    spaces-around - все пространство распределено 
+
+    */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.card {
+    background-color: grey;
+    width: 200px;
+    height: 300px;
+    /* margin: 12px; */
+    padding: 12px;
+}
+
+/* main axix - основная ось
+   cross axix - поперечная ось */
+.winter-sale {
+    display: flex;
+    flex-direction: column;
+    background-color: #f155a0;
+    margin: 32px;
+    padding: 24px;
+    border-radius: 24px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent:hover {
+    .circle {
+        background-color: darkorchid;
+    }
+}
+
+.circle {
+    background-color: #f155a0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
