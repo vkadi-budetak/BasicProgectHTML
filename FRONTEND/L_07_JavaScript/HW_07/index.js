@@ -89,6 +89,9 @@ console.log(c1);
 // const colors = [red, green, blue];
 // console.log(colors.length);
 
+//!---
+//*---
+
 // 19.
 
 // Создай массив fruits = ["apple", "banana"].
