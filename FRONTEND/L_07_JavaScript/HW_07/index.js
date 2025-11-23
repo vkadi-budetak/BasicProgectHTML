@@ -86,46 +86,52 @@ const c1 = ("a" + +"a" + "a" + "s").toLowerCase(); // "a" + NaN = "aNana" +  + "
 console.log(c1);
 
 // 18. Создай массив colors со значениями "red", "green", "blue" и выведи его длину.
-// const colors = [red, green, blue];
-// console.log(colors.length);
+const colors = ["red", "green", "blue"];
+console.log(colors.length);
 
-//!---
-//*---
-
-// 19.
-
-// Создай массив fruits = ["apple", "banana"].
+// 19. Создай массив fruits = ["apple", "banana"].
 // Выведи второй элемент и несуществующий третий.
+fruits = ["apple", "banana"];
+console.log(fruits[1]);
+console.log(fruits[2]);
 
-// 20.
+// 20. Выведи все элементы массива cars = ["BMW", "Mercedes", "Audi"] с помощью цикла for.
+let cars = ["BMW", "Mercedes", "Audi"];
 
-// Выведи все элементы массива cars = ["BMW", "Mercedes", "Audi"] с помощью цикла for.
+for (let car of cars) {
+  console.log(car);
+}
 
-// 21.
+// 21. Создай пустой массив students. Добавь в него "Alex" и "John" с помощью .push.
+const students = [];
+students.push("Alex");
+students.push("John");
+console.log(students);
 
-// Создай пустой массив students. Добавь в него "Alex" и "John" с помощью .push.
+// 22. Вставь "Tom" в начало массива students.
+students.unshift("Tom");
+console.log(students);
 
-// 22.
+// 23. Удалите последний элемент из массива students.
+students.pop();
+console.log(students);
 
-// Вставь "Tom" в начало массива students.
+// 24. Удалите первый элемент из массива students.
+students.shift();
+console.log(students);
 
-// 23.
-
-// Удалите последний элемент из массива students.
-
-// 24.
-
-// Удалите первый элемент из массива students.
-
-// 25.
-
-// Создай массив numbers = [1, 2, 3].
-
+// 25. Создай массив numbers = [1, 2, 3].
 // Добавь число 4 в конец.
-
 // Добавь число 0 в начало.
-
 // Удали последний элемент.
-
 // Удали первый элемент.
 // Выведи массив после каждого шага.
+const numbers = [1, 2, 3];
+numbers.push(4);
+console.log(numbers);
+numbers.unshift(0);
+console.log(numbers);
+numbers.pop();
+console.log(numbers);
+numbers.shift();
+console.log(numbers);
