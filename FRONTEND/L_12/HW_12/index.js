@@ -11,6 +11,8 @@ const capitalizeElements = (arr) => {
   arr.forEach((element, index) => {
     if (typeof element === "string" && element.length > 0) {
       arr[index] = element.charAt(0).toUpperCase() + element.slice(1);
+    } else {
+      throw new Error("Unexected type: expected string");
     }
   });
 };
@@ -31,7 +33,7 @@ const fruits2 = ["banana", "apple", "orange", "grape"];
 const sortStringsAlphabetically = (arr) => {
   arr.sort((a, b) => {
     if (typeof a !== "string" || typeof b !== "string") {
-      return 0;
+      throw new Error("Wrong argument: expected string");
     }
     return a.localeCompare(b);
   });

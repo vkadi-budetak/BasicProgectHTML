@@ -1,0 +1,32 @@
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.circle {
+    margin: 24px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circles-list {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font-xl {
+    font-size: x-large;
+}
+
+.active {
+    text-decoration: underline;
+}
