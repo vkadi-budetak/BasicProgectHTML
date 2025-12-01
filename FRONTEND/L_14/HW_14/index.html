@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../HW_14/js/index.js" defer></script>
+</head>
+
+<body>
+    <span id="error_message"></span>
+
+    <form id="form">
+        <label for="title">Название альбома</label>
+        <input type="text" name="title" id="title">
+        <label for="year">Год выпуска</label>
+        <input type="number" name="year" id="year">
+        <label for="author">Исполнитель/автор альбома</label>
+        <input type="text" name="author" id="author">
+        <button type="submit">Add albums</button>
+    </form>
+
+    <ul id="music_list"></ul>
+</body>
+
+</html>
+
+<!-- Задание
+Создайте простой HTML-документ, содержащий форму для добавления музыкального альбома. Форма должна включать три
+отдельных поля ввода:
+title — название альбома
+year — год выпуска
+author — исполнитель/автор альбома
+Под самой формой необходимо отображать список всех добавленных альбомов.
+Требования:
+Добавление альбома должно происходить без перезагрузки страницы.
+Для вывода информации об альбоме не использовать innerHTML — только createElement, textContent, и работу с DOM. -->
