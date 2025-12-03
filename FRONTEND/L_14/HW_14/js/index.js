@@ -1,4 +1,5 @@
 const form = document.getElementById("form");
+console.dir(form);
 
 const musicList = document.getElementById("music_list");
 const errorMessage = document.getElementById("error_message");
